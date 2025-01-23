@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+a {
+  text-decoration: underline;
+}
+a.underline {
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  color: #0070f3;
+}
+
+ul.list-disc {
+  margin-left: 1.5rem;
+}
+
+.header, .footer {
+  background-color: #1a1a1a;
+  color: white;
+}
