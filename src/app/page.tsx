@@ -1,5 +1,6 @@
 import Head from 'next/head'
 
+
 const Home: React.FC = () => {
   return (
     <div>
@@ -30,7 +31,7 @@ const Home: React.FC = () => {
               <p className="mt-2">
 Description: I created a static resume builder using HTML and CSS. This project showcases my personal information, work experience, education, and skills in a clean and professional format.
 </p>
-Link: <a href="https://hackathon-resume-builder-opal.vercel.app/"><b>View My Resume</b></a>.
+Link: <a href="https://hackathon-resume-builder-opal.vercel.app/" target="_blank" rel="noopener noreferrer"><b>View My Resume</b></a>.
             </div>
             <div className="project bg-white p-6 rounded shadow">
               <h3 className="text-2xl font-bold">Project 2:Dynamic and Editable Resume Builder</h3>
@@ -38,13 +39,13 @@ Link: <a href="https://hackathon-resume-builder-opal.vercel.app/"><b>View My Res
               <p className="mt-2">Description: Developed a dynamic and editable resume builder using HTML and CSS. 
                 This project allows users to create and customize their resumes interactively,
                  showcasing their personal information, work experience, education, and skills.</p>
-                 Link:<a href='https://editable-resume-builder-ybvw-ad5nt3mw0-fahad-warsis-projects.vercel.app/'>  <b>View My Resume</b></a>
+                 Link:<a href='https://editable-resume-builder-ybvw-ad5nt3mw0-fahad-warsis-projects.vercel.app/' target="_blank" rel="noopener noreferrer">  <b>View My Resume</b></a>
             </div>
             <div className="project bg-white p-6 rounded shadow">
               <h3 className="text-2xl font-bold">Project 3: Editable and Shareable Resume Builder</h3>
               <p className="mt-2">Description: Created an editable and shareable resume builder. This project enables users to customize their resumes,
                  share them with anyone, and download them as PDFs for convenience.</p>
-                 Link:<a href='https://hackathon-resume-builder-b6l5.vercel.app/'>  <b>View My Resume</b></a>
+                 Link:<a href='https://hackathon-resume-builder-b6l5.vercel.app/' target="_blank" rel="noopener noreferrer">  <b>View My Resume</b></a>
             </div>
           </div>
         </section>
