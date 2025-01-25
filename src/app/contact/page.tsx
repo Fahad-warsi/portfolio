@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 const Contact: React.FC = () => {
   return (
@@ -8,11 +9,11 @@ const Contact: React.FC = () => {
       </Head>
       <header className="bg-gray-900 text-white p-4">
         <nav className="container mx-auto flex justify-between">
-          <a href="/" className="text-2xl font-bold">My Portfolio</a>
+          <Link href="/" className="text-2xl font-bold">My Portfolio</Link>
           <ul className="flex space-x-4">
-            <li><a href="/" className="hover:underline">Home</a></li>
-            <li><a href="/about" className="hover:underline">About</a></li>
-            <li><a href="/contact" className="hover:underline">Contact</a></li>
+            <li><Link href="/" className="hover:underline">Home</Link></li>
+            <li><Link href="/about" className="hover:underline">About</Link></li>
+            <li><Link href="/contact" className="hover:underline">Contact</Link></li>
           </ul>
         </nav>
       </header>
@@ -30,7 +31,7 @@ const Contact: React.FC = () => {
             </div>
             <div className="mb-4">
               <label className="block text-gray-700">Message</label>
-              <textarea className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md" rows="4" placeholder="Your Message"></textarea>
+              <textarea className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md" rows={6} placeholder="Your Message"></textarea>
             </div>
             <button type="submit" className="bg-blue-600 text-white px-4 py-2 rounded">Send Message</button>
           </form>

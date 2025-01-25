@@ -10,11 +10,11 @@ const Home: React.FC = () => {
       </Head>
       <header className="bg-gray-900 text-white p-4">
         <nav className="container mx-auto flex justify-between">
-          <a href="/" className="text-2xl font-bold">My Portfolio</a>
+          <Link href="/" className="text-2xl font-bold">My Portfolio</Link>
           <ul className="flex space-x-4">
-            <li><a href="/" className="hover:underline">Home</a></li>
-            <li><a href="/about" className="hover:underline">About</a></li>
-            <li><a href="/contact" className="hover:underline">Contact</a></li>
+            <li><Link href="/" className="hover:underline">Home</Link></li>
+            <li><Link href="/about" className="hover:underline">About</Link></li>
+            <li><Link href="/contact" className="hover:underline">Contact</Link></li>
           </ul>
         </nav>
       </header>
